@@ -16,6 +16,7 @@ ExportedObj/
 *.booproj
 *.svd
 *.CSharp.csproj
+*.CSharp.*.csproj
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -34,9 +35,8 @@ Water/Library/*
 Water/ProjectSettings/*
 
 #DLL ignore
-Water/Assets/Scripts/dll/
+Water/Assets/dll/
 */bin
 */obj
 */[Tt]emp
-Water/*/*.meta
-Water/*.meta
+*.meta
